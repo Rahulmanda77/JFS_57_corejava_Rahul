@@ -1,0 +1,24 @@
+class person {
+    String name;
+    int age;
+    String gender;
+    String city;
+
+  void displayDetails() {
+     System.out.println("person Details");
+     System.out.println("name  :" +name);
+     System.out.println("age   :" +age);
+     System.out.println("gender:" +gender);
+     System.out.println("city  :" +city);
+
+}
+
+public static void main(String[] args){
+   person p = new person(); 
+  
+          p.name = "Rahul";
+          p.age = 21;
+          p.gender = "Male";
+          p.city = "Mancherial";
+}
+}

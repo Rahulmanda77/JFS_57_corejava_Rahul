@@ -1,0 +1,2 @@
+hello Codegnan!
+Buffered writer is faster for large taxt files
